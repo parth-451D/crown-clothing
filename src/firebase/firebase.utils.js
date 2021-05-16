@@ -5,11 +5,39 @@ import "firebase/auth";
 const config = {
   apiKey: "AIzaSyAOeg14eVMzwTZaD0EpALCqFpMJ3uoJceY",
   authDomain: "crown-store-db-2fa99.firebaseapp.com",
+  databaseURL: "https://crown-store-db-2fa99-default-rtdb.firebaseio.com",
   projectId: "crown-store-db-2fa99",
   storageBucket: "crown-store-db-2fa99.appspot.com",
   messagingSenderId: "598190651883",
   appId: "1:598190651883:web:e6d3fd99cb0febf80a01ae",
-  measurementId: "G-Y17GZXRLN9",
+  measurementId: "G-Y17GZXRLN9"
+};
+
+export const createUserProfileDocument = async ( userAuth, additionalData) => {
+  if (!userAuth) return;
+
+  const userRef = firestore.doc(`users/${userAuth.uid}`);
+
+  const snapShot = await userRef.get();
+  
+  if(!snapShot.exists){
+    const { displayName, email } = userAuth;
+    const createdAt = new Date();
+
+    try{
+       await userRef.set({
+         displayName,
+         email,
+         createdAt,
+         ...additionalData
+       })
+    } catch (error) {
+      console.log('error creating user' , error.message);
+    }
+
+  }
+  return userRef;
+
 };
 
 firebase.initializeApp(config);
