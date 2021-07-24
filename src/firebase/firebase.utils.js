@@ -14,6 +14,7 @@ const config = {
 };
 
 firebase.initializeApp(config);
+firebase.firestore().settings({ experimentalForceLongPolling: true });
 
 export const createUserProfileDocument = async ( userAuth, additionalData) => {
   if (!userAuth) return;
