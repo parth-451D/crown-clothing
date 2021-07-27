@@ -3,13 +3,21 @@
     display: flex;
     flex-direction: column;
 
+    @media screen and (max-width:800px) {
+        width: 90vw;
+    }
+
     .title{
         margin: 10px 0;
     }
 
-    .button{
+    .buttons{
         display: flex;
         justify-content: space-between;
+        @media screen and (max-width:800px) {
+            flex-direction: column;
+            // width: 100vw;
+            
+        }
     }
 }
-
