@@ -1,36 +1,36 @@
 const INITIAL_STATE = {
     sections : [
         {
-          title: 'hats',
-          imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
+          title: 'ball',
+          imageUrl: 'https://images.pexels.com/photos/209841/pexels-photo-209841.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
           id: 1,
-          linkUrl: 'shop/hats'
+          linkUrl: 'shop/ball'
         },
         {
-          title: 'jackets',
-          imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
+          title: 'Bats',
+          imageUrl: 'https://images.pexels.com/photos/4747325/pexels-photo-4747325.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
           id: 2,
-          linkUrl: 'shop/jackets'
+          linkUrl: 'shop/bats'
         },
         {
-          title: 'sneakers',
-          imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
+          title: 'accessories',
+          imageUrl: 'https://images.pexels.com/photos/45057/pexels-photo-45057.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
           id: 3,
-          linkUrl: 'shop/sneakers'
+          linkUrl: 'shop/accessories'
         },
         {
-          title: 'womens',
-          imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
+          title: 'indoor',
+          imageUrl: 'https://images.unsplash.com/photo-1599641499370-f4338ba82a04?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW5kb29yJTIwZ2FtZXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60',
           size: 'large',
           id: 4,
-          linkUrl: 'shop/womens'
+          linkUrl: 'shop/indoor'
         },
         {
-          title: 'mens',
-          imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
+          title: 'outdoor',
+          imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1i529spkFt2YnpE3-46Yh_23VyZidTYYxSQ&usqp=CAU',
           size: 'large',
           id: 5,
-          linkUrl: 'shop/mens'
+          linkUrl: 'shop/outdoor'
         }
       ]
 };
