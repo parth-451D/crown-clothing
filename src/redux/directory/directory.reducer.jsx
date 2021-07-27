@@ -27,7 +27,7 @@ const INITIAL_STATE = {
         },
         {
           title: 'outdoor',
-          imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1i529spkFt2YnpE3-46Yh_23VyZidTYYxSQ&usqp=CAU',
+          imageUrl: 'https://images.pexels.com/photos/266619/pexels-photo-266619.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
           size: 'large',
           id: 5,
           linkUrl: 'shop/outdoor'

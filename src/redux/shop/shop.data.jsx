@@ -129,7 +129,7 @@ const SHOP_DATA = {
       {
         id: 20,
         name: 'Golf Bat',
-        imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-R98Md1103CeoQl0u5ZnQZD_Hr2dySZuvn--1yOhDgh78GqW_rfCI-6Mye4olAS33RRE&usqp=CAU',
+        imageUrl: 'https://www.pngitem.com/pimgs/m/77-779248_golf-club-golf-bat-and-ball-hd-png.png',
         price: 3500
       },
       {
@@ -168,12 +168,6 @@ const SHOP_DATA = {
         name: 'Badminton',
         imageUrl: 'https://www.islandecho.co.uk/wp-content/uploads/2020/09/badminton-990x660.jpg',
         price: 500
-      },
-      {
-        id: 27,
-        name: 'Archery Set',
-        imageUrl: 'https://5.imimg.com/data5/LM/MO/NU/SELLER-2410594/junior-archery-set-500x500.jpg',
-        price: 3000
       },
       {
         id: 28,
@@ -218,6 +212,12 @@ const SHOP_DATA = {
         imageUrl: 'https://images-na.ssl-images-amazon.com/images/I/71yz5P8pz7L._SX425_.jpg',
         price: 3000
       },
+      {
+        id: 27,
+        name: 'Archery Set',
+        imageUrl: 'https://5.imimg.com/data5/LM/MO/NU/SELLER-2410594/junior-archery-set-500x500.jpg',
+        price: 3000
+      }
     ]
   }
 };
